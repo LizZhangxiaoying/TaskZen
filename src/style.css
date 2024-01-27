@@ -36,7 +36,7 @@ body {
   background-color: #292524;
   color: #fafaf9;
   font-family: "Sono", sans-serif;
-  padding: 48px 64px;
+  padding: 68px 64px;
 }
 
 .hidden {
@@ -72,8 +72,8 @@ h1 {
 }
 
 .logo img {
-  width: 68px;
-  height: 68px;
+  width: 120px;
+  height: 120px;
 }
 
 .fact {

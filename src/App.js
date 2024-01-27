@@ -5,6 +5,7 @@ import * as React from "react";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
 import { red } from "@mui/material/colors";
+import AppBarSection from "./topBar";
 
 const initialFacts = [
   {
@@ -95,6 +96,7 @@ function App() {
 
   return (
     <>
+      <AppBarSection />
       {/* HEADER */}
       <Header showForm={showForm} setShowForm={setShowForm} />
       {/* use state variable */}
@@ -118,12 +120,17 @@ function Loader() {
 }
 
 function Header({ showForm, setShowForm }) {
-  const appTitle = "Today I will do";
+  const appTitle = "My Little Task Hub";
 
   return (
     <header className="header">
       <div className="logo">
-        <img src="logo.png" height="68" width="68" alt="Today I learned logo" />
+        <img
+          src="task4.png"
+          height="200"
+          width="200"
+          alt="Today I learned logo"
+        />
         <h1>{appTitle}</h1>
       </div>
       <button
@@ -218,7 +225,7 @@ function NewFactForm({ setFacts, setShowForm }) {
       <input
         value={source}
         type="text"
-        placeholder="Related link"
+        placeholder="Link/Side note"
         onChange={(e) => setSource(e.target.value)}
         disabled={isUploading}
       />
@@ -273,7 +280,7 @@ function FactList({ facts, setFacts }) {
   if (facts.length === 0)
     return (
       <p className="message">
-        No facts for this category yet! Create your own one 🤟
+        All tasks finished for this category! Good job 🤟
       </p>
     );
 
@@ -342,7 +349,11 @@ function Fact({ fact, setFacts }) {
       <p>
         {fact.text}
         <a className="source" href={fact.source} target="_blank">
-          {isValidHttpUrl(fact.source) ? "source" : null}
+          {isValidHttpUrl(fact.source)
+            ? "link"
+            : fact.source
+            ? `(${fact.source})`
+            : null}
         </a>
       </p>
 
@@ -360,7 +371,7 @@ function Fact({ fact, setFacts }) {
           👍 {fact.votesInteresting}
         </button>
         <button className="delete-buttons" onClick={handleDelete}>
-          Delete
+          ⛔️Delete
         </button>
       </div>
     </li>
