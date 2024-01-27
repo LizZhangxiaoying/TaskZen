@@ -293,25 +293,29 @@ function Fact({ fact, setFacts }) {
   const [isUpdating, setIsUpdating] = useState(false);
   const [showFact, setShowFact] = useState(true);
 
+  function handleDelete() {
+    console.log("111");
+  }
+
   async function handleDelete() {
     try {
       setIsUpdating(true);
 
+      if (!fact) {
+        console.error("Fact object is null or undefined");
+        return;
+      }
+
       // Delete the fact from Supabase
-      const { data: deletedFact, error } = await supabase
-        .from("facts")
-        .delete()
-        .eq("id", fact.id)
-        .single();
+      const { error } = await supabase.from("facts").delete().eq("id", fact.id);
 
       setIsUpdating(false);
 
-      console.log("Deleted Fact:", deletedFact);
       console.log("Deletion Error:", error);
 
       if (!error) {
         // Update the UI by removing the deleted fact
-        setFacts((facts) => facts.filter((f) => f.id !== deletedFact.id));
+        setFacts((facts) => facts.filter((f) => f.id !== fact.id));
       }
     } catch (error) {
       console.error("Error in handleDelete:", error);
@@ -355,13 +359,9 @@ function Fact({ fact, setFacts }) {
         <button onClick={handleVote} disabled={isUpdating}>
           👍 {fact.votesInteresting}
         </button>
-        <ColorButtons
-          variant="contained"
-          color="secondary"
-          onClick={handleDelete}
-        >
+        <button className="delete-buttons" onClick={handleDelete}>
           Delete
-        </ColorButtons>
+        </button>
       </div>
     </li>
   );
