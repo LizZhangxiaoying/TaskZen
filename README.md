@@ -16,10 +16,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Tech Stack
 **Frontend**:
- -JavaScript
- -React.js
- -HTML5
- -CSS3
+ - JavaScript
+ - React.js
+ - HTML5
+ - CSS3
 
 
 **Backend**:
@@ -47,8 +47,6 @@ npm install
 ```
 npm start
 ```
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
 4.Access the app:
 Open your browser and go to http://localhost:3000 to see TaskZen in action.
