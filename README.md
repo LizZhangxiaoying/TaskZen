@@ -1,72 +1,60 @@
-# Getting Started with Create React App
+# TaskZen: Automated Task and Reminder App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Introduction
+**TaskZen** is a productivity application designed to streamline task management with automated reminders. Developed as a full-stack project, TaskZen focuses on providing a seamless user experience with features that cater to both personal and professional task management. The app ensures scalability and performance across cloud infrastructure, making it a reliable tool for users.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Automated Reminders** : Never miss a task with customizable reminders.
+- **Customizable Task Categories**: Organize your tasks based on categories that fit your needs.
+- **Priority Settings**: Easily manage your tasks by setting priorities.
+- **Recurring Reminders**: Set up recurring tasks and reminders to stay on track.
+- **User-Friendly Interface**: A responsive and intuitive UI built with React.js.
+- **Scalability and Performance**: Optimized for performance across cloud infrastructure.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
+**Frontend**:
+ -JavaScript
+ -React.js
+ -HTML5
+ -CSS3
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+**Backend**:
+-Node.js 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Deployment**:
+-AWS
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run TaskZen locally, follow these steps:
 
+1.Clone the repository:
+
+```
+git clone https://github.com/your-username/taskzen.git
+cd taskzen
+```
+
+2.Install dependencies:
+```
+npm install
+```
+3.Run the application:
+```
+npm start
+```
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4.Access the app:
+Open your browser and go to http://localhost:3000 to see TaskZen in action.
 
-### `npm run eject`
+## Contact
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# TimeManager
-# my-little-task-hub
+For any questions or feedback, feel free to reach out:
+- **Name**: Liz Zhang
+- **Email**: zbzxy@upenn.edu
