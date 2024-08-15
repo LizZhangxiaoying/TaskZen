@@ -23,10 +23,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 **Backend**:
--Node.js 
+- Node.js 
 
 **Deployment**:
--AWS
+- AWS
 
 ## Installation
 
