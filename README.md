@@ -1,16 +1,15 @@
 # ResearchSearch: Scientific Article Search Platform
 
 ## Introduction
-**TaskZen** is a productivity application designed to streamline task management with automated reminders. Developed as a full-stack project, TaskZen focuses on providing a seamless user experience with features that cater to both personal and professional task management. The app ensures scalability and performance across cloud infrastructure, making it a reliable tool for users.
+**ResearchSearch** is a full-stack web application designed to empower students and researchers by providing efficient access to over 200 million scientific articles. The platform focuses on performance, scalability, and ease of use, making it a powerful tool for academic exploration and knowledge discovery.
 
 ## Features
 
-- **Automated Reminders** : Never miss a task with customizable reminders.
-- **Customizable Task Categories**: Organize your tasks based on categories that fit your needs.
-- **Priority Settings**: Easily manage your tasks by setting priorities.
-- **Recurring Reminders**: Set up recurring tasks and reminders to stay on track.
+- **Comprehensive Search** : Access a database of over 200M+ scientific articles.
+- **Optimized Query Speed**: Search results are delivered 35% faster thanks to efficient data preprocessing.
+- **Reliable Data Storage**: Ensures 99.9% uptime for uninterrupted access to resources.
 - **User-Friendly Interface**: A responsive and intuitive UI built with React.js.
-- **Scalability and Performance**: Optimized for performance across cloud infrastructure.
+- **Scalable Architecture**: Backend designed to handle high volumes of traffic.
 
 ## Tech Stack
 **Frontend**:
@@ -19,22 +18,30 @@
  - HTML5
  - CSS3
 
-
 **Backend**:
-- Node.js 
+- Node.js
+- Express.js
+
+**Data Processing**:
+- Apache Spark on Databricks
+
+**Database**:
+- MySQL
+- AWS RDS
+- DataGrip
 
 **Deployment**:
 - AWS
 
 ## Installation
 
-To run TaskZen locally, follow these steps:
+To run ResearchSearch locally, follow these steps:
 
 1.Clone the repository:
 
 ```
-git clone https://github.com/your-username/taskzen.git
-cd taskzen
+git clone https://github.com/your-username/researchsearch.git  
+cd researchsearch  
 ```
 
 2.Install dependencies:
