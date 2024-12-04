@@ -1,15 +1,18 @@
-# ResearchSearch: Scientific Article Search Platform
+# TaskZen: Automated Task and Reminder App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Introduction
-**ResearchSearch** is a full-stack web application designed to empower students and researchers by providing efficient access to over 200 million scientific articles. The platform focuses on performance, scalability, and ease of use, making it a powerful tool for academic exploration and knowledge discovery.
+**TaskZen** is a productivity application designed to streamline task management with automated reminders. Developed as a full-stack project, TaskZen focuses on providing a seamless user experience with features that cater to both personal and professional task management. The app ensures scalability and performance across cloud infrastructure, making it a reliable tool for users.
 
 ## Features
 
-- **Comprehensive Search** : Access a database of over 200M+ scientific articles.
-- **Optimized Query Speed**: Search results are delivered 35% faster thanks to efficient data preprocessing.
-- **Reliable Data Storage**: Ensures 99.9% uptime for uninterrupted access to resources.
+- **Automated Reminders** : Never miss a task with customizable reminders.
+- **Customizable Task Categories**: Organize your tasks based on categories that fit your needs.
+- **Priority Settings**: Easily manage your tasks by setting priorities.
+- **Recurring Reminders**: Set up recurring tasks and reminders to stay on track.
 - **User-Friendly Interface**: A responsive and intuitive UI built with React.js.
-- **Scalable Architecture**: Backend designed to handle high volumes of traffic.
+- **Scalability and Performance**: Optimized for performance across cloud infrastructure.
 
 ## Tech Stack
 **Frontend**:
@@ -18,30 +21,22 @@
  - HTML5
  - CSS3
 
+
 **Backend**:
-- Node.js
-- Express.js
-
-**Data Processing**:
-- Apache Spark on Databricks
-
-**Database**:
-- MySQL
-- AWS RDS
-- DataGrip
+- Node.js 
 
 **Deployment**:
 - AWS
 
 ## Installation
 
-To run ResearchSearch locally, follow these steps:
+To run TaskZen locally, follow these steps:
 
 1.Clone the repository:
 
 ```
-git clone https://github.com/your-username/researchsearch.git  
-cd researchsearch  
+git clone https://github.com/your-username/taskzen.git
+cd taskzen
 ```
 
 2.Install dependencies:
@@ -61,3 +56,4 @@ Open your browser and go to http://localhost:3000 to see TaskZen in action.
 For any questions or feedback, feel free to reach out:
 - **Name**: Liz Zhang
 - **Email**: zbzxy@upenn.edu
+
