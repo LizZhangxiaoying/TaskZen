@@ -1,6 +1,4 @@
-# TaskZen: Automated Task and Reminder App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ResearchSearch: Scientific Article Search Platform
 
 ## Introduction
 **TaskZen** is a productivity application designed to streamline task management with automated reminders. Developed as a full-stack project, TaskZen focuses on providing a seamless user experience with features that cater to both personal and professional task management. The app ensures scalability and performance across cloud infrastructure, making it a reliable tool for users.
